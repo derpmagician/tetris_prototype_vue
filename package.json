@@ -1,11 +1,10 @@
 {
   "name": "tetrisvue",
-  "homepage": "https://derpmagician.github.io/tetris_prototype_vue",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/tetris_prototype_vue/",
     "predeploy": "npm run build",
     "deploy": "npm run build && gh-pages -d dist",
     "preview": "vite preview"
